@@ -1,0 +1,49 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*key*.txt
+*token*.txt
+*secret*
+secrets/
+*.pem
+*.key
+*cookie*
+chrome_profile/
+config.json
+!config.example.json
+
+# Data, databases, dumps
+data/
+!data/*.json
+*.sqlite
+*.sqlite-*
+*.db
+*.csv
+*.jsonl
+*.pkl
+*.parquet
+*.xlsx
+*.gz
+*.zip
+
+# Logs and caches
+logs/
+*.log
+cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environments and editor files
+.venv/
+venv/
+env/
+.DS_Store
+.idea/
+.vscode/
+
+# Local backups
+*.bak*
+*.before-*
+*.orig
